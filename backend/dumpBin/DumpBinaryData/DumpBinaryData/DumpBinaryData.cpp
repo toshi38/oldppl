@@ -26,7 +26,7 @@ int main()
 
     for (int i = 0; i < height; i++) {
       for (int j = 0; j < width; j++) {
-        printf("%d\t", ((int32_t*)memblock)[width * i + j + 2]/30);
+        printf("%d\t", ((int32_t*)memblock)[width * i + j + 2]/30); //divide by 30 for seconds of movement per pixel.
       }
       printf("\n");
     }
