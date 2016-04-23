@@ -718,6 +718,17 @@ public class BluetoothLeService extends Service {
                 characteristic.getUuid().equals(UUIDDatabase.UUID_CAPSENSE_SLIDER_CUSTOM)) {
             mBundle.putInt(Constants.EXTRA_CAPSLIDER_VALUE,
                     CapSenseParser.getCapSenseSlider(characteristic));
+
+//            public static int getCapSenseSlider(
+//                    BluetoothGattCharacteristic characteristic) {
+//                int mSliderValue = characteristic.getIntValue(
+//                        BluetoothGattCharacteristic.FORMAT_UINT8, 0);
+//                return mSliderValue;
+//
+//            }
+            Log.d("stephen.sensorValue", "Sensor:" + BluetoothGattCharacteristic.FORMAT_UINT8 +
+                    ".Value:" + characteristic.getIntValue(BluetoothGattCharacteristic.FORMAT_UINT8, 0));
+
         }
         // CapSense buttons read value
         else if (characteristic.getUuid().equals(UUIDDatabase.UUID_CAPSENSE_BUTTONS) ||

@@ -435,7 +435,7 @@ public class HomePageActivity extends FragmentActivity implements
             }
 
         } else if (currentFragment instanceof GattDescriptorFragment) {
-            CySmartApplication mApplication = (CySmartApplication) getApplication();
+            CySmartApplicationStephen mApplication = (CySmartApplicationStephen) getApplication();
             BluetoothGattDescriptor descriptor = mApplication.getBluetoothgattDescriptor();
             if (descriptor != null) {
                 BluetoothLeService.readDescriptor(descriptor);

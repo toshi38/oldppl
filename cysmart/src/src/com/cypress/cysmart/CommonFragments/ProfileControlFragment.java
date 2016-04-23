@@ -57,7 +57,7 @@ import com.cypress.cysmart.BLEConnectionServices.BluetoothLeService;
 import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.Logger;
 import com.cypress.cysmart.CommonUtils.Utils;
-import com.cypress.cysmart.CySmartApplication;
+import com.cypress.cysmart.CySmartApplicationStephen;
 import com.cypress.cysmart.ListAdapters.CarouselPagerAdapter;
 import com.cypress.cysmart.R;
 
@@ -92,7 +92,7 @@ public class ProfileControlFragment extends Fragment {
     private int mWidth = 0;
 
     // Application variable
-    private CySmartApplication mApplication;
+    private CySmartApplicationStephen mApplication;
     // progress dialog variable
     private ProgressDialog mProgressDialog;
 
@@ -122,7 +122,7 @@ public class ProfileControlFragment extends Fragment {
         mRelativeLayout = (RelativeLayout) rootView
                 .findViewById(R.id.gatt_service_carousel);
         mPager = (ViewPager) rootView.findViewById(R.id.myviewpager);
-        mApplication = (CySmartApplication) getActivity().getApplication();
+        mApplication = (CySmartApplicationStephen) getActivity().getApplication();
         mPages = 0;
         mProgressDialog = new ProgressDialog(getActivity());
         mProgressDialog.setCancelable(false);
@@ -169,7 +169,7 @@ public class ProfileControlFragment extends Fragment {
         // Getting the device name and address passed
         mDeviceNameProfile = getArguments().getString(ARG_DEVICE_NAME);
         mDeviceAddressProfile = getArguments().getString(ARG_DEVICE_ADDRESS);
-        mApplication = (CySmartApplication) getActivity().getApplication();
+        mApplication = (CySmartApplicationStephen) getActivity().getApplication();
 
         //Hiding the softkeyboard if visible
         View view = getActivity().getCurrentFocus();

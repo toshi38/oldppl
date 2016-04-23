@@ -1,0 +1,4 @@
+C:\code\oldppl\cysmart\src\build\intermediates\classes\debug
+C:\code\oldppl\cysmart\src\build\intermediates\pre-dexed\debug\Android-WebRequest-a967a5150ce1dd234ed7162f79071a32f7b3ccf9.jar
+C:\code\oldppl\cysmart\src\build\intermediates\pre-dexed\debug\achartengine-1.0.0-eac84e3f85b188d45d09ed8187830bc8c599c534.jar
+C:\code\oldppl\cysmart\src\build\intermediates\pre-dexed\debug\android-support-v4-b1bce8ebf3c6f2c745a22941fca3825b010a5bf5.jar

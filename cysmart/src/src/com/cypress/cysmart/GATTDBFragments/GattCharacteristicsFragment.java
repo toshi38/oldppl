@@ -54,7 +54,7 @@ import com.cypress.cysmart.CommonUtils.GattAttributes;
 import com.cypress.cysmart.CommonUtils.Logger;
 import com.cypress.cysmart.CommonUtils.UUIDDatabase;
 import com.cypress.cysmart.CommonUtils.Utils;
-import com.cypress.cysmart.CySmartApplication;
+import com.cypress.cysmart.CySmartApplicationStephen;
 import com.cypress.cysmart.ListAdapters.GattCharacteriscticsListAdapter;
 import com.cypress.cysmart.R;
 
@@ -69,7 +69,7 @@ public class GattCharacteristicsFragment extends Fragment {
     private List<BluetoothGattCharacteristic> mGattCharacteristics;
 
     // Application
-    private CySmartApplication mApplication;
+    private CySmartApplicationStephen mApplication;
 
     // ListView
     private ListView mGattListView;
@@ -93,7 +93,7 @@ public class GattCharacteristicsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_gatt_list,
                 container, false);
-        mApplication = (CySmartApplication) getActivity().getApplication();
+        mApplication = (CySmartApplicationStephen) getActivity().getApplication();
         getActivity().getActionBar().setTitle(R.string.gatt_db);
         mGattListView = (ListView) rootView
                 .findViewById(R.id.ListView_gatt_services);

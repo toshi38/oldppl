@@ -54,7 +54,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -63,7 +62,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.cypress.cysmart.BLEConnectionServices.BluetoothLeService;
-import com.cypress.cysmart.CommonUtils.ASCIIKeyBoard;
 import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.DialogListner;
 import com.cypress.cysmart.CommonUtils.GattAttributes;
@@ -71,7 +69,7 @@ import com.cypress.cysmart.CommonUtils.HexKeyBoard;
 import com.cypress.cysmart.CommonUtils.Logger;
 import com.cypress.cysmart.CommonUtils.UUIDDatabase;
 import com.cypress.cysmart.CommonUtils.Utils;
-import com.cypress.cysmart.CySmartApplication;
+import com.cypress.cysmart.CySmartApplicationStephen;
 import com.cypress.cysmart.R;
 
 public class GattDetailsFragment extends Fragment implements DialogListner, OnClickListener {
@@ -100,7 +98,7 @@ public class GattDetailsFragment extends Fragment implements DialogListner, OnCl
     private ProgressDialog mProgressDialog;
 
     // Application
-    private CySmartApplication mApplication;
+    private CySmartApplicationStephen mApplication;
     private boolean mIsReadEnabled;
 
     //Descriptor button
@@ -123,7 +121,7 @@ public class GattDetailsFragment extends Fragment implements DialogListner, OnCl
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.gattdb_details, container,
                 false);
-        mApplication = (CySmartApplication) getActivity().getApplication();
+        mApplication = (CySmartApplicationStephen) getActivity().getApplication();
         mServiceName = (TextView) rootView.findViewById(R.id.txtservicename);
         mHexValue = (TextView) rootView.findViewById(R.id.txthex);
         mCharacteristiceName = (TextView) rootView

@@ -53,7 +53,7 @@ import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.GattAttributes;
 import com.cypress.cysmart.CommonUtils.Logger;
 import com.cypress.cysmart.CommonUtils.Utils;
-import com.cypress.cysmart.CySmartApplication;
+import com.cypress.cysmart.CySmartApplicationStephen;
 import com.cypress.cysmart.R;
 
 /**
@@ -72,7 +72,7 @@ public class GattDescriptorDetails extends Fragment implements
     private ViewGroup mContainer;
 
     // Application
-    private CySmartApplication mApplication;
+    private CySmartApplicationStephen mApplication;
 
     //View fields
     private TextView mCharacteristicName;
@@ -194,7 +194,7 @@ public class GattDescriptorDetails extends Fragment implements
         View rootView = inflater.inflate(R.layout.gattdb_descriptor_details, container,
                 false);
         this.mContainer = container;
-        mApplication = (CySmartApplication) getActivity().getApplication();
+        mApplication = (CySmartApplicationStephen) getActivity().getApplication();
         mCharacteristicName = (TextView) rootView.findViewById(R.id.txtcharacteristicname);
         mDescriptorName = (TextView) rootView.findViewById(R.id.txtdescriptorname);
         mDescriptorValue = (TextView) rootView.findViewById(R.id.txtdescriptorvalue);

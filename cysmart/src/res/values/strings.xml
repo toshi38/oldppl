@@ -117,7 +117,7 @@
 
     <!-- profile control elements -->
     <string name="profile_control_unknown_service">Unknown Service</string>
-    <string name="profile_control_no_device_message">Pull down to refresh…</string>
+    <string name="profile_control_no_device_message">Hello Pull down to refresh…</string>
     <string name="profile_control_device_scanning">Refreshing, Please wait…</string>
     <string name="profile_cannot_connect_message">Cannot connect to the device</string>
     <string name="profile_control_stop_notification_toast">Notifications disabled</string>

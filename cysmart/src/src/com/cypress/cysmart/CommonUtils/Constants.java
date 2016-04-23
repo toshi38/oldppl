@@ -259,7 +259,7 @@ public class Constants {
     /**
      * Fragment Tags
      */
-    public static String PROFILE_SCANNING_FRAGMENT_TAG = "BLE Devices";
+    public static String PROFILE_SCANNING_FRAGMENT_TAG = "Stephen BLE Devices";
     public static String ABOUT_FRAGMENT_TAG = "about cysmart";
     public static String GLUCOSE_ADDITIONAL_FRAGMENT_TAG = "glucose additional tag";
     public static String BLE_PRODUCTS_FRAGMENT_TAG = "ble products";

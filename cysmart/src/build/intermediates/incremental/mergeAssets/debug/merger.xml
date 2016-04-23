@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\code\oldppl\cysmart\src\assets"/></dataSet><dataSet config="debug"><source path="C:\code\oldppl\cysmart\src\build-types\debug\assets"/></dataSet></merger>

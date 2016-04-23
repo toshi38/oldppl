@@ -25,7 +25,7 @@ import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.Logger;
 import com.cypress.cysmart.CommonUtils.UUIDDatabase;
 import com.cypress.cysmart.CommonUtils.Utils;
-import com.cypress.cysmart.CySmartApplication;
+import com.cypress.cysmart.CySmartApplicationStephen;
 import com.cypress.cysmart.R;
 
 import java.util.ArrayList;
@@ -57,7 +57,7 @@ public class ServiceDiscoveryFragment extends Fragment {
     private static ArrayList<HashMap<String, BluetoothGattService>> mGattServiceMasterData =
             new ArrayList<HashMap<String, BluetoothGattService>>();
     // Application
-    private CySmartApplication mApplication;
+    private CySmartApplicationStephen mApplication;
     private ProgressDialog mProgressDialog;
     private Timer mTimer;
     private TextView mNoserviceDiscovered;
@@ -96,7 +96,7 @@ public class ServiceDiscoveryFragment extends Fragment {
         mNoserviceDiscovered=(TextView)rootView.findViewById(R.id.no_service_text);
         mProgressDialog=new ProgressDialog(getActivity());
         mTimer=showServiceDiscoveryAlert(false);
-        mApplication = (CySmartApplication) getActivity().getApplication();
+        mApplication = (CySmartApplicationStephen) getActivity().getApplication();
         Handler delayHandler = new Handler();
         delayHandler.postDelayed(new Runnable() {
             @Override

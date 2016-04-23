@@ -50,7 +50,7 @@ import android.widget.TextView;
 import com.cypress.cysmart.CommonUtils.Constants;
 import com.cypress.cysmart.CommonUtils.Logger;
 import com.cypress.cysmart.CommonUtils.Utils;
-import com.cypress.cysmart.CySmartApplication;
+import com.cypress.cysmart.CySmartApplicationStephen;
 import com.cypress.cysmart.ListAdapters.GattCharacteristicDescriptorsAdapter;
 import com.cypress.cysmart.R;
 
@@ -67,7 +67,7 @@ public class GattDescriptorFragment extends Fragment {
     private BluetoothGattCharacteristic mBluetoothGattCharacteristic;
 
     // Application
-    private CySmartApplication mApplication;
+    private CySmartApplicationStephen mApplication;
     // Text Heading
     private TextView mTextHeading;
     // GATT Service name
@@ -89,7 +89,7 @@ public class GattDescriptorFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_gatt_list,
                 container, false);
-        mApplication = (CySmartApplication) getActivity().getApplication();
+        mApplication = (CySmartApplicationStephen) getActivity().getApplication();
         getActivity().getActionBar().setTitle(R.string.gatt_db);
         mGattListView = (ListView) rootView
                 .findViewById(R.id.ListView_gatt_services);

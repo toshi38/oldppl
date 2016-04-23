@@ -147,7 +147,7 @@ public class CapsenseService extends Fragment {
                 }
                 fragmentsList.add(mCapsenseProximity.create(mService));
             } else if (uuidchara.equals(UUIDDatabase.UUID_CAPSENSE_SLIDER) || uuidchara.equals(UUIDDatabase.UUID_CAPSENSE_SLIDER_CUSTOM)) {
-                Logger.i("UUID Charsss slid"
+                Logger.e("UUID Charsss slid"
                         + gattCharacteristic.getUuid().toString());
                 mNotifyCharacteristicSlid = gattCharacteristic;
                 if (!mNotifyset) {
