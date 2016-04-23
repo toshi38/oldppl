@@ -1,0 +1,19 @@
+{
+  "name": "ICT-Frontend",
+  "version": "0.1.0",
+  "description": "Standard project for Block Zero",
+  "author": "Rasmus, Stephen",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://local"
+  },
+  
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
