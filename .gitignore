@@ -1,3 +1,4 @@
 *.opendb
 *.tlog
 *.sdf
+workspace.xml
