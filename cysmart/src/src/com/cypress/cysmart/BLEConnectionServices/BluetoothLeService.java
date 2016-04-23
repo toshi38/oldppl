@@ -726,7 +726,7 @@ public class BluetoothLeService extends Service {
 //                return mSliderValue;
 //
 //            }
-            Log.d("stephen.sensorValue", "Sensor:" + BluetoothGattCharacteristic.FORMAT_UINT8 +
+            Log.d("nioth2016", "Sensor:" + BluetoothGattCharacteristic.FORMAT_UINT8 +
                     ".Value:" + characteristic.getIntValue(BluetoothGattCharacteristic.FORMAT_UINT8, 0));
 
         }
