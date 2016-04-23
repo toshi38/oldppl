@@ -3,3 +3,4 @@
 *.sdf
 workspace.xml
 cysmart/src/build/generated cysmart/src/build/intermediates cysmart/src/build/outputs cysmart/src/build/tmp
+cysmart/src/build
