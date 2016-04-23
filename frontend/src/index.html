@@ -18,18 +18,40 @@
   <script type="text/javascript">
     function initBody(bodyEl) {
       console.log(bodyEl);
+
+      var exampleSocket = new WebSocket("ws://localhost:3000/echo");
+      console.log(exampleSocket);
+
+      exampleSocket.onopen = function() { 
+        console.log("Opened web socket connection"); 
+        exampleSocket.send("Here's some text that the server is urgently awaiting!"); 
+
+      }
+
+      exampleSocket.onmessage = function (event) {
+        console.log(event.data);
+      }
+
+
+
     }
 
     function toggle( imgEL ){
       var newRiskEl = document.getElementById('newRisk');
+      var warningEl = document.getElementById('warning');
       if (imgEL.getAttribute('src') === 'assets/toggle.png') {
         imgEL.setAttribute('src', 'assets/toggle_off.png');
         newRisk.innerHTML = "Risk: 18%";
+        imgEL.parentElement.style.opacity = 0.5;
+        warningEl.style.opacity = 0;
+        warningEl.style.height = 0;
       }
       else {
         imgEL.setAttribute('src', 'assets/toggle.png');  
         newRisk.innerHTML = "Risk: 34%";
-
+        imgEL.parentElement.style.opacity = 1;
+        warningEl.style.opacity = 1;
+        warningEl.style.height = 'initial';
       }
 
     }
@@ -82,6 +104,7 @@
       border: 0;
       border-collapse: collapse;
   }
+
 
 </style>
 
@@ -148,7 +171,9 @@
                 <img src="assets/task5.png" style="height: 100%">
                 <img src="assets/toggle.png" onclick="toggle(this);" style="height: 100%" >
               </div> 
-              <img src="assets/taskrisk.png" style="width: 100%">
+              <div id="warning">
+                <img  src="assets/taskrisk.png" style="width: 100%">
+              </div>
               <div class="taskcontainer withtoggle" style="margin-top: 0;">
                 <img src="assets/task6.png" style="height: 100%">
                 <img src="assets/toggle.png" style="height: 100%" >

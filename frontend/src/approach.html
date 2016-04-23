@@ -1,0 +1,148 @@
+
+<html class="no-js" style="height: 100%">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>ICT Frontend</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+<style type="text/css">
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  td {
+    vertical-align:top;
+  }
+
+  .taskcontainer {
+    height: 5vw;
+    margin-top: 10px; margin-left: 10px; background: white; border-radius: 3px; padding: 10px
+  }
+
+  .withtoggle {
+    display:flex; flex-direction: row;
+  }
+
+  @font-face {
+    font-family: 'europa';
+    src: url('assets/Europa/Europa-Regular.otf');
+  }
+  @font-face {
+    font-family: 'europa-bold';
+    src: url('assets/Europa/Europa-Bold.otf');
+  }
+
+  .header {
+    font-family: 'europa-bold';
+    font-size: 1.6rem;
+  }
+  .subheader {
+    font-family: 'europa';
+    font-size: 1.2rem;
+  }
+  .headercontainer {
+    padding: 10px;
+    padding-top: 25px; 
+  }
+
+  table, th, td {
+      border: 0;
+      border-collapse: collapse;
+  }
+
+  img {
+  	transition: opacity 2s linear;
+  	position: absolute;
+  	top: 0;
+  }
+
+</style>
+
+
+	<script type="text/javascript">
+		var mainEl;
+
+    var goToImages = function(){
+			mainEl.innerHTML = "";
+				var images = [];
+				images[0] = document.createElement("img");
+				images[1] = document.createElement("img");
+				images[2] = document.createElement("img");
+
+				images[1].style.opacity = 0;
+				images[2].style.opacity = 0;
+
+				images[0].setAttribute('src', 'assets/heatmap/heatmap0.jpg');
+				images[1].setAttribute('src', 'assets/heatmap/heatmap1.jpg');
+				images[2].setAttribute('src', 'assets/heatmap/heatmap2.jpg');
+
+      	mainEl.appendChild(images[0]);
+      	mainEl.appendChild(images[1]);        	
+      	mainEl.appendChild(images[2]);
+
+      	setTimeout( function(){
+      		images[1].style.opacity = 1;
+        	setTimeout( function(){
+        		images[2].style.opacity = 1;
+        	}, 2000);        		
+      	}, 2000);      	
+    }
+
+    function initBody(bodyEl) {
+    	mainEl = document.getElementById('main');
+      console.log(bodyEl);
+
+      var exampleSocket = new WebSocket("ws://192.168.254.22:3000/approach");
+      console.log(exampleSocket);
+
+      exampleSocket.onopen = function() { 
+        console.log("Opened web socket connection"); 
+        //exampleSocket.send("Here's some text that the server is urgently awaiting!"); 
+      }
+
+
+      var haveSwitched = false;
+
+      exampleSocket.onmessage = function (event) {
+        console.log(event.data);
+
+        if( event.data < 9 && !haveSwitched ){
+        	goToImages();
+					haveSwitched = true;
+        }
+
+        /*
+        else {
+					mainEl.innerHTML = "Patient movement history during incubation period." + event.data;
+
+        }*/
+
+      }
+
+
+
+    }
+
+
+  </script>
+
+  </head>
+
+  <body onload="initBody(this);" >
+
+		<div id="main" class="header" onclick="goToImages();">  	
+
+
+Patient movement history during incubation period.
+  	</div>
+
+
+  </body>
+</html>
