@@ -5,3 +5,9 @@ workspace.xml
 cysmart/src/build/generated cysmart/src/build/intermediates cysmart/src/build/outputs cysmart/src/build/tmp
 cysmart/src/build
 cysmart-rssi/src/build
+cysmart-rssi/src/.idea/misc.xml
+cysmart/src/.gradle/2.2.1/taskArtifacts/cache.properties.lock
+cysmart/src/.gradle/2.2.1/taskArtifacts/fileHashes.bin
+cysmart/src/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin
+cysmart/src/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin
+cysmart/src/local.properties
