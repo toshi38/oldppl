@@ -1,0 +1,6 @@
+C:\GitProjects\Murata\Murata\bin\Debug\Murata.exe.config
+C:\GitProjects\Murata\Murata\bin\Debug\Murata.exe
+C:\GitProjects\Murata\Murata\bin\Debug\Murata.pdb
+C:\GitProjects\Murata\Murata\obj\Debug\Murata.csprojResolveAssemblyReference.cache
+C:\GitProjects\Murata\Murata\obj\Debug\Murata.exe
+C:\GitProjects\Murata\Murata\obj\Debug\Murata.pdb
