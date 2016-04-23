@@ -163,9 +163,11 @@ public class ProfileScanningFragment extends Fragment {
         public void onLeScan(final BluetoothDevice device, final int rssi,
                              byte[] scanRecord) {
             mBluetoothAdapter.startLeScan(mContinuousScan);
+            if(device.getAddress().equalsIgnoreCase("E9:43:85:EC:34:FE")) {
+                Log.d("nioth2016", "device:" + device.getAddress() +".datatype:"+
+                        ".Value:" + rssi);
+            }
 
-            Log.d("nioth2016", "device:" + device.getAddress() +".datatype:"+
-                    ".Value:" + rssi);
         }
     };
 
