@@ -22,14 +22,94 @@
 
   </script>
 
+<style type="text/css">
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  td {
+    vertical-align:top;
+  }
+
+  .taskcontainer {
+    height: 6vw;
+    margin-top: 10px; margin-left: 10px; background: white; border-radius: 3px; padding: 10px
+  }
+</style>
 
   <body style="height: 100%; width: 100%;" onload="initBody(this);"  >
     <!-- Front page --> 
     <center>
-    <section id="mySection"  >
-      <div>
-        <img src="assets/scheduleScreen.png" style="max-width: 100%; position:absolute; top:0;">
-        <img src="assets/toggleon.png" style="max-width: 6%; position:absolute; top:0; ">
+    <section id="mySection"   >
+<!--      <div style="position: absolute; top: 0, height: 100%; width: 100%;">
+        <img src="assets/scheduleScreen.png" style="max-width: 100%; position:absolute; top:0; left:0">
+        <img src="assets/toggleon.png" style="max-width: 6%; position:absolute; top:0; left:0">
+      </div>
+-->
+      <div style="position: absolute; top: 0; height: 100%; width: 100%; overflow: hidden;">
+        <table style="height: 100%; width: 100%; margin: 0;">
+          <tr style="width: 100%; height: 115px;">
+            <td style="max-width: 50vw; ">
+                <img src="assets/topleft.png" style="width: 100%">
+            </td>
+            <td style="background: #f5f7e3; ; ">
+                <img src="assets/topcenter.png" style="width: 100%">
+              
+            </td>
+            <td style=" background: #f5f7e3; ; ">
+                <img src="assets/topright.png" style="width: 100%">
+              
+            </td>                        
+          </tr>          
+          <tr style="width: 100%; ">
+            <td style="width: 50%">
+                <img src="assets/lowleft.png" style="width: 100%">
+            </td>
+            <td style="background: #f5f7e3">
+              <div class="taskcontainer">
+                <img src="assets/task1.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/task2.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/task3.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/task4.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/task5.png" style="width: 100%">
+              </div> 
+              <img src="assets/taskrisk.png" style="width: 100%">
+              <div class="taskcontainer" style="margin-top: 0;">
+                <img src="assets/task6.png" style="width: 100%">
+              </div>               
+<!--              <img src="assets/lowcenter.png" style="width: 100%">
+-->
+              
+            </td>
+            <td style="background: #f5f7e3">
+              <div class="taskcontainer">
+                <img src="assets/newtask1.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/newtask2.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/newtask3.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/newtask4.png" style="width: 100%">
+              </div> 
+              <div class="taskcontainer">
+                <img src="assets/newtask5.png" style="width: 100%">
+              </div>                  
+            </td>                        
+          </tr>                    
+        </table>
       </div>
 
     </section>
