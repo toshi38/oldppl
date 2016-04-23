@@ -10,7 +10,7 @@
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="editor.css" type="text/css">
+
 
 
   </head>
@@ -18,6 +18,20 @@
   <script type="text/javascript">
     function initBody(bodyEl) {
       console.log(bodyEl);
+    }
+
+    function toggle( imgEL ){
+      var newRiskEl = document.getElementById('newRisk');
+      if (imgEL.getAttribute('src') === 'assets/toggle.png') {
+        imgEL.setAttribute('src', 'assets/toggle_off.png');
+        newRisk.innerHTML = "Risk: 18%";
+      }
+      else {
+        imgEL.setAttribute('src', 'assets/toggle.png');  
+        newRisk.innerHTML = "Risk: 34%";
+
+      }
+
     }
 
   </script>
@@ -34,9 +48,41 @@
   }
 
   .taskcontainer {
-    height: 6vw;
+    height: 5vw;
     margin-top: 10px; margin-left: 10px; background: white; border-radius: 3px; padding: 10px
   }
+
+  .withtoggle {
+    display:flex; flex-direction: row;
+  }
+
+  @font-face {
+    font-family: 'europa';
+    src: url('assets/Europa/Europa-Regular.otf');
+  }
+  @font-face {
+    font-family: 'europa-bold';
+    src: url('assets/Europa/Europa-Bold.otf');
+  }
+
+  .header {
+    font-family: 'europa-bold';
+    font-size: 1.6rem;
+  }
+  .subheader {
+    font-family: 'europa';
+    font-size: 1.2rem;
+  }
+  .headercontainer {
+    padding: 10px;
+    padding-top: 25px; 
+  }
+
+  table, th, td {
+      border: 0;
+      border-collapse: collapse;
+  }
+
 </style>
 
   <body style="height: 100%; width: 100%;" onload="initBody(this);"  >
@@ -49,17 +95,31 @@
       </div>
 -->
       <div style="position: absolute; top: 0; height: 100%; width: 100%; overflow: hidden;">
-        <table style="height: 100%; width: 100%; margin: 0;">
+        <table style="height: 100%; width: 100%; margin: 0;" border="0">
           <tr style="width: 100%; height: 115px;">
             <td style="max-width: 50vw; ">
-                <img src="assets/topleft.png" style="width: 100%">
+              <div style="display: flex; flex-direction: row;">
+                <img src="assets/amanda.png" style="height: 100%">
+                <div class="headercontainer">
+                  <div class="header">Amanda Brian</div>
+                  <div class="subheader">Intensive Care Unit</div>
+                </div>
+              </div>
             </td>
             <td style="background: #f5f7e3; ; ">
-                <img src="assets/topcenter.png" style="width: 100%">
+              <div class="headercontainer">
+
+                <div class="header"> New Schedule</div>
+                <div id="newRisk" class="subheader">Risk: 34%</div>
+              </div>
               
             </td>
             <td style=" background: #f5f7e3; ; ">
-                <img src="assets/topright.png" style="width: 100%">
+              <div class="headercontainer">
+            
+                <div class="header"> Old Scedule</div>
+                <div class="subheader">Risk: 88%</div>
+              </div>
               
             </td>                        
           </tr>          
@@ -68,24 +128,30 @@
                 <img src="assets/lowleft.png" style="width: 100%">
             </td>
             <td style="background: #f5f7e3">
-              <div class="taskcontainer">
-                <img src="assets/task1.png" style="width: 100%">
+              <div class="taskcontainer withtoggle">
+                <img src="assets/task1.png" style="height: 100%" >
+                <img src="assets/toggle.png" style="height: 100%" >
               </div> 
-              <div class="taskcontainer">
-                <img src="assets/task2.png" style="width: 100%">
+              <div class="taskcontainer withtoggle">
+                <img src="assets/task2.png" style="height: 100%">
+                <img src="assets/toggle.png" style="height: 100%" >
               </div> 
-              <div class="taskcontainer">
-                <img src="assets/task3.png" style="width: 100%">
+              <div class="taskcontainer withtoggle">
+                <img src="assets/task3.png" style="height: 100%">
+                <img src="assets/toggle.png" style="height: 100%" >
               </div> 
-              <div class="taskcontainer">
-                <img src="assets/task4.png" style="width: 100%">
+              <div class="taskcontainer withtoggle">
+                <img src="assets/task4.png" style="height: 100%">
+                <img src="assets/toggle.png" style="height: 100%" >
               </div> 
-              <div class="taskcontainer">
-                <img src="assets/task5.png" style="width: 100%">
+              <div class="taskcontainer withtoggle">
+                <img src="assets/task5.png" style="height: 100%">
+                <img src="assets/toggle.png" onclick="toggle(this);" style="height: 100%" >
               </div> 
               <img src="assets/taskrisk.png" style="width: 100%">
-              <div class="taskcontainer" style="margin-top: 0;">
-                <img src="assets/task6.png" style="width: 100%">
+              <div class="taskcontainer withtoggle" style="margin-top: 0;">
+                <img src="assets/task6.png" style="height: 100%">
+                <img src="assets/toggle.png" style="height: 100%" >
               </div>               
 <!--              <img src="assets/lowcenter.png" style="width: 100%">
 -->
@@ -93,19 +159,19 @@
             </td>
             <td style="background: #f5f7e3">
               <div class="taskcontainer">
-                <img src="assets/newtask1.png" style="width: 100%">
+                <img src="assets/newtask1.png" style="height: 100%">
               </div> 
               <div class="taskcontainer">
-                <img src="assets/newtask2.png" style="width: 100%">
+                <img src="assets/newtask2.png" style="height: 100%">
               </div> 
               <div class="taskcontainer">
-                <img src="assets/newtask3.png" style="width: 100%">
+                <img src="assets/newtask3.png" style="height: 100%">
               </div> 
               <div class="taskcontainer">
-                <img src="assets/newtask4.png" style="width: 100%">
+                <img src="assets/newtask4.png" style="height: 100%">
               </div> 
               <div class="taskcontainer">
-                <img src="assets/newtask5.png" style="width: 100%">
+                <img src="assets/newtask5.png" style="height: 100%">
               </div>                  
             </td>                        
           </tr>                    
