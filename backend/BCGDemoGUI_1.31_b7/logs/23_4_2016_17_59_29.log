@@ -1,0 +1,54 @@
+apr 23, 2016 5:59:29 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: BCG Demo 1.31-b7
+apr 23, 2016 5:59:29 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Application build date: Mon Jan 04 10:46:58 CET 2016
+apr 23, 2016 5:59:29 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Using frame version: 2
+apr 23, 2016 5:59:33 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:59:33 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:59:33 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:59:33 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: BCG module FW version: BCG Sensor_3.0.0.0
+apr 23, 2016 5:59:33 EM n actionPerformed
+INFO: Connected
+apr 23, 2016 5:59:33 EM n actionPerformed
+INFO: Starting to collect data
+apr 23, 2016 5:59:33 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Reading measurement direction...
+apr 23, 2016 5:59:33 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Done
+apr 23, 2016 5:59:42 EM ak run
+SEVERE: Data collector interrupted
+apr 23, 2016 5:59:42 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Setting BCG mode 1
+apr 23, 2016 5:59:42 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Reseting BCG node
+apr 23, 2016 5:59:42 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Disconnected
+apr 23, 2016 5:59:42 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Waiting for 10 seconds...
+apr 23, 2016 5:59:52 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Connecting to demo board..
+apr 23, 2016 5:59:52 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:59:52 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: BCG module FW version: BCG Sensor_3.0.0.0
+apr 23, 2016 5:59:52 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Connected
+apr 23, 2016 5:59:52 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Waiting for data..
+apr 23, 2016 5:59:52 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Mode change was successfully completed
+apr 23, 2016 6:00:05 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Ending output data reader..
+apr 23, 2016 6:00:05 EM ak run
+SEVERE: Data collector interrupted
+apr 23, 2016 6:00:05 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Closing timers...
+apr 23, 2016 6:00:05 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Removing tray icon
+apr 23, 2016 6:00:05 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Calling exit() for Java Virtual Machine...

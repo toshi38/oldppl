@@ -1,0 +1,32 @@
+apr 23, 2016 2:56:07 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: BCG Demo 1.31-b7
+apr 23, 2016 2:56:07 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Application build date: Mon Jan 04 10:46:58 CET 2016
+apr 23, 2016 2:56:08 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Using frame version: 2
+apr 23, 2016 2:56:12 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:56:12 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:56:12 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:56:12 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: BCG module FW version: BCG Sensor_3.0.0.0
+apr 23, 2016 2:56:12 EM n actionPerformed
+INFO: Connected
+apr 23, 2016 2:56:12 EM n actionPerformed
+INFO: Starting to collect data
+apr 23, 2016 2:56:12 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Reading measurement direction...
+apr 23, 2016 2:56:12 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Done
+apr 23, 2016 2:56:21 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Ending output data reader..
+apr 23, 2016 2:56:21 EM ak run
+SEVERE: Data collector interrupted
+apr 23, 2016 2:56:21 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Closing timers...
+apr 23, 2016 2:56:21 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Removing tray icon
+apr 23, 2016 2:56:21 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Calling exit() for Java Virtual Machine...

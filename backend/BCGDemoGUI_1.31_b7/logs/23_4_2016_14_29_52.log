@@ -1,0 +1,150 @@
+apr 23, 2016 2:29:52 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: BCG Demo 1.31-b7
+apr 23, 2016 2:29:52 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Application build date: Mon Jan 04 10:46:58 CET 2016
+apr 23, 2016 2:29:52 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Using frame version: 2
+apr 23, 2016 2:29:53 EM ar run
+INFO: Starting SSDP dicovery
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping Software Loopback Interface 1
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping Juniper Network Connect Virtual Adapter
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping WAN Miniport (SSTP)
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping Microsoft ISATAP Adapter #8
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping Broadcom NetLink (TM) Gigabit Ethernet
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping Microsoft Kernel Debug Network Adapter
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping VMware Virtual Ethernet Adapter for VMnet1
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping WAN Miniport (Network Monitor)
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping WAN Miniport (IKEv2)
+apr 23, 2016 2:29:53 EM ar run
+INFO: Skipping VMware Virtual Ethernet Adapter for VMnet8
+apr 23, 2016 2:29:53 EM ar run
+INFO: Processing interface card VirtualBox Host-Only Ethernet Adapter
+apr 23, 2016 2:29:53 EM ar run
+INFO: Searching with interface VirtualBox Host-Only Ethernet Adapter IP 192.168.56.1
+apr 23, 2016 2:29:54 EM ar run
+SEVERE: 192.168.56.1 SSDP timeout error..
+apr 23, 2016 2:29:55 EM ar run
+SEVERE: 192.168.56.1 SSDP timeout error..
+apr 23, 2016 2:29:56 EM ar run
+SEVERE: 192.168.56.1 SSDP timeout error..
+apr 23, 2016 2:29:57 EM ar run
+SEVERE: 192.168.56.1 SSDP timeout error..
+apr 23, 2016 2:29:58 EM ar run
+SEVERE: 192.168.56.1 SSDP timeout error..
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Bluetooth Device (Personal Area Network)
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft ISATAP Adapter #7
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping WAN Miniport (IP)
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping WAN Miniport (L2TP)
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping WAN Miniport (IPv6)
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft ISATAP Adapter
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping WAN Miniport (PPTP)
+apr 23, 2016 2:29:58 EM ar run
+INFO: Processing interface card Qualcomm Atheros AR5BWB222 Wireless Network Adapter
+apr 23, 2016 2:29:58 EM ar run
+INFO: Searching with interface Qualcomm Atheros AR5BWB222 Wireless Network Adapter IP 192.168.43.47
+apr 23, 2016 2:29:58 EM ar run
+INFO: Processing interface card VirtualBox Host-Only Ethernet Adapter #2
+apr 23, 2016 2:29:58 EM ar run
+INFO: Searching with interface VirtualBox Host-Only Ethernet Adapter #2 IP 192.168.99.1
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft ISATAP Adapter #3
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft ISATAP Adapter #4
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft ISATAP Adapter #2
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping WAN Miniport (PPPOE)
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Bluetooth Device (RFCOMM Protocol TDI)
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter-VirtualBox NDIS Light-Weight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter #2-VirtualBox NDIS Light-Weight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter #2-QoS Packet Scheduler-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping VirtualBox Host-Only Ethernet Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Juniper Network Connect Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Juniper Network Connect Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Juniper Network Connect Virtual Adapter-QoS Packet Scheduler-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Juniper Network Connect Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Broadcom NetLink (TM) Gigabit Ethernet-WFP Native MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Broadcom NetLink (TM) Gigabit Ethernet-VirtualBox NDIS Light-Weight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Broadcom NetLink (TM) Gigabit Ethernet-QoS Packet Scheduler-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Broadcom NetLink (TM) Gigabit Ethernet-WFP 802.3 MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Qualcomm Atheros AR5BWB222 Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Qualcomm Atheros AR5BWB222 Wireless Network Adapter-Virtual WiFi Filter Driver-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Qualcomm Atheros AR5BWB222 Wireless Network Adapter-Native WiFi Filter Driver-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Qualcomm Atheros AR5BWB222 Wireless Network Adapter-VirtualBox NDIS Light-Weight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Qualcomm Atheros AR5BWB222 Wireless Network Adapter-QoS Packet Scheduler-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Qualcomm Atheros AR5BWB222 Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter #2
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:58 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+apr 23, 2016 2:29:59 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000
+apr 23, 2016 2:29:59 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+apr 23, 2016 2:29:59 EM ar run
+INFO: Skipping Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+apr 23, 2016 2:29:59 EM ar run
+INFO: SSDP dicovery completed
+apr 23, 2016 2:30:24 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Closing timers...
+apr 23, 2016 2:30:24 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Removing tray icon
+apr 23, 2016 2:30:24 EM fi.murata.ds.demos.BCGDemoGUI a
+INFO: Calling exit() for Java Virtual Machine...

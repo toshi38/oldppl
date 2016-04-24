@@ -1,0 +1,82 @@
+apr 23, 2016 5:16:07 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: BCG Demo 1.31-b7
+apr 23, 2016 5:16:07 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Application build date: Mon Jan 04 10:46:58 CET 2016
+apr 23, 2016 5:16:07 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Using frame version: 2
+apr 23, 2016 5:16:11 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:11 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:11 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:13 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:13 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:14 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:14 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:14 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:16 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:16 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:17 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:17 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:17 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:19 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:19 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:20 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:20 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:20 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:22 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:22 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:23 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:23 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:23 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:25 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:25 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:26 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:26 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:26 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:28 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:28 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:29 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:29 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:29 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:31 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:31 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:32 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:32 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:32 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080

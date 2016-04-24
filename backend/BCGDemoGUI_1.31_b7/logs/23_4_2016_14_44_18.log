@@ -1,0 +1,92 @@
+apr 23, 2016 2:44:18 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: BCG Demo 1.31-b7
+apr 23, 2016 2:44:18 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Application build date: Mon Jan 04 10:46:58 CET 2016
+apr 23, 2016 2:44:18 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Using frame version: 2
+apr 23, 2016 2:44:22 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:22 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:22 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:24 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 2:44:24 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 2:44:25 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:25 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:25 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:27 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 2:44:27 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 2:44:28 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:28 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:28 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:30 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 2:44:30 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 2:44:31 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:31 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:31 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:33 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 2:44:33 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 2:44:34 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:34 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:34 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:36 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 2:44:36 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 2:44:37 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:37 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:37 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:39 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 2:44:39 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 2:44:40 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:40 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:40 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:42 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 2:44:42 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 2:44:43 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 2:44:43 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 2:44:43 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 2:44:44 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: BCG module FW version: BCG Sensor_3.0.0.0
+apr 23, 2016 2:44:44 EM n actionPerformed
+INFO: Connected
+apr 23, 2016 2:44:44 EM n actionPerformed
+INFO: Starting to collect data
+apr 23, 2016 2:44:44 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Reading measurement direction...
+apr 23, 2016 2:44:44 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Done

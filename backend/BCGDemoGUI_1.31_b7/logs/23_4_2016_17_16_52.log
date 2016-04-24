@@ -1,0 +1,52 @@
+apr 23, 2016 5:16:52 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: BCG Demo 1.31-b7
+apr 23, 2016 5:16:52 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Application build date: Mon Jan 04 10:46:58 CET 2016
+apr 23, 2016 5:16:52 EM fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Using frame version: 2
+apr 23, 2016 5:16:56 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:56 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:56 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:16:58 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:16:58 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:16:59 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:16:59 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:16:59 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:17:01 EM bk a
+SEVERE: connect timed out
+apr 23, 2016 5:17:01 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:17:02 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:17:02 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:17:02 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:17:03 EM bk a
+SEVERE: Connection refused: connect
+apr 23, 2016 5:17:03 EM fi.murata.ds.demos.BCGDemoGUI f
+SEVERE: Failed to connect to the 192.168.43.175:8080
+apr 23, 2016 5:17:04 EM n actionPerformed
+INFO: No data received, demo board connected: false
+apr 23, 2016 5:17:04 EM n actionPerformed
+INFO: Connecting to demo board..
+apr 23, 2016 5:17:04 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: Connecting to TCP: 192.168.43.175:8080
+apr 23, 2016 5:17:04 EM fi.murata.ds.demos.BCGDemoGUI f
+INFO: BCG module FW version: BCG Sensor_3.0.0.0
+apr 23, 2016 5:17:04 EM n actionPerformed
+INFO: Connected
+apr 23, 2016 5:17:04 EM n actionPerformed
+INFO: Starting to collect data
+apr 23, 2016 5:17:04 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Reading measurement direction...
+apr 23, 2016 5:17:04 EM fi.murata.ds.demos.BCGDemoGUI E
+INFO: Done

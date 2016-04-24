@@ -1,0 +1,50 @@
+tammi 18, 2016 10:37:56 AP. fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: BCG Demo 1.31-b7
+tammi 18, 2016 10:37:56 AP. fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Application build date: Mon Jan 04 10:46:58 EET 2016
+tammi 18, 2016 10:37:56 AP. fi.murata.ds.demos.BCGDemoGUI <init>
+INFO: Using frame version: 2
+tammi 18, 2016 10:37:56 AP. ar run
+INFO: Starting SSDP dicovery
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping Software Loopback Interface 1
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (SSTP)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (L2TP)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (PPTP)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (PPPOE)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (IPv6)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (Network Monitor)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (IP)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping RAS Async Adapter
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping WAN Miniport (IKEv2)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping Intel(R) Ethernet Connection I218-LM
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping Bluetooth Device (RFCOMM Protocol TDI)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Skipping Bluetooth Device (Personal Area Network)
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Processing interface card Intel(R) Dual Band Wireless-AC 7260
+tammi 18, 2016 10:37:57 AP. ar run
+INFO: Searching with interface Intel(R) Dual Band Wireless-AC 7260 IP 10.17.23.22
+tammi 18, 2016 10:37:58 AP. ar run
+SEVERE: 10.17.23.22 SSDP timeout error..
+tammi 18, 2016 10:37:59 AP. ar run
+SEVERE: 10.17.23.22 SSDP timeout error..
+tammi 18, 2016 10:38:00 AP. ar run
+SEVERE: 10.17.23.22 SSDP timeout error..
+tammi 18, 2016 10:38:01 AP. fi.murata.ds.demos.BCGDemoGUI a
+INFO: Closing timers...
+tammi 18, 2016 10:38:01 AP. fi.murata.ds.demos.BCGDemoGUI a
+INFO: Removing tray icon
+tammi 18, 2016 10:38:01 AP. fi.murata.ds.demos.BCGDemoGUI a
+INFO: Calling exit() for Java Virtual Machine...
